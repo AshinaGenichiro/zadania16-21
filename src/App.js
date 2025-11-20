@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Timer from './components/Timer';
+import ClickAndChange from './components/ClickAndChange';
+import Wpisz from './components/Wpisz';
+import ThreeColors from './components/ThreeColors';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>Task 16</h1>
+    <Timer />
+    <h1>Task 17</h1>
+    <ClickAndChange />
+    <h1>Task 18</h1>
+    <Wpisz />
+    <h1>Task 19</h1>
+    <ThreeColors />
+    
+    </>
   );
 }
 
