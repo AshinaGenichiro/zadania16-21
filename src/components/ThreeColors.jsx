@@ -7,11 +7,9 @@ const ThreeColors = () => {
     
      return(
         <>
-        <button style={{color:color}} onclick={setColor("red")}>Czerwony</button>
-        <button style={{color:color}} onclick={setColor("green")}> Zielony</button>
-        <button style={{color:color}} onclick={setColor("blue")}>Niebieski</button>
-            
-       
+         <button style={{color: color}} onClick={() => setColor("red")}>Czerwony</button>
+         <button style={{color: color}} onClick={() => setColor("blue")}>Niebieski</button>
+         <button style={{color: color}} onClick={() => setColor("green")}>Zielony</button>
         </>
      );
 }; 
