@@ -6,6 +6,11 @@ import Wpisz from './components/Wpisz';
 import ThreeColors from './components/ThreeColors';
 import AddList from './components/AddList';
 import CountTo0 from './components/CountTo0';
+import ReuzywalneKomendy from './components/ReuzywalneKomendy';
+import ClickedOnCity from './components/ClickedOnCity';
+import PodswietlenieElementu from './components/PodswietlenieElementu';
+import PodswietlenieDomyslne from './components/PodswietlenieDomyslne';
+import Task91 from './components/Task91';
 function App() {
   return (
     <>
@@ -21,6 +26,16 @@ function App() {
     <AddList />
     <h1>Task 21</h1>
     <CountTo0 />
+    <h1>Zadanie 7 task 1</h1>
+    <ReuzywalneKomendy/>
+    <h1>Zadanie 7 task 2</h1>
+    <ClickedOnCity/>
+    <h1>Zadanie 8 task 1</h1>
+    <PodswietlenieElementu/>
+    <h1>Zadanie 8 task 2</h1>
+    <PodswietlenieDomyslne /> 
+    <h1>Zadanie 9 task 1</h1>
+    <Task91/>
     </>
   );
 }
